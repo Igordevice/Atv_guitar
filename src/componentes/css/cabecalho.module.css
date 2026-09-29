@@ -1,0 +1,28 @@
+.header {
+  height: 140px;
+  background-image: url("/src/assets/imagens/guitarrasB.jpeg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-bottom: 15px solid #9e0000;
+}
+
+.menu {
+  position: absolute;
+  right: 45px;
+  bottom: 15px;
+  display: flex;
+  background-color: white;
+}
+
+.menu a {
+  padding: 20px 45px;
+
+  color: #333;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.menu a:hover {
+  background-color: #ddd;
+}

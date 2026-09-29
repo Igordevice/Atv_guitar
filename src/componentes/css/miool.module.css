@@ -1,0 +1,32 @@
+.sobre {
+  min-height: 300px;
+  background-color: #d00000;
+  display: flex;
+  gap: 45px;
+  padding: 20px 40px;
+}
+
+.texto {
+  flex: 1;
+  background-color: #c09595;
+  padding: 25px;
+  color: white;
+  
+}
+
+.texto h2 {
+  margin-bottom: 25px;
+}
+.texto p {
+  font-size: 14px;
+}
+
+.imagem {
+  flex: 1;
+}
+
+.imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

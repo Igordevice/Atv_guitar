@@ -1,0 +1,57 @@
+.contato {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.formulario {
+    width: 40%;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.formulario input {
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.formulario textarea {
+    width: 50%;
+    height: 100px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+}
+
+.formulario button {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+.redes {
+    width: 40%;
+    text-align: center;
+}
+
+.redes h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.icones img {
+    width: 65px;
+    height: 65px;
+    
+}
